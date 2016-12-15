@@ -1,0 +1,15 @@
+<html>
+    <head><title>Task 3</title></head>
+    <body bgcolor=#A465A9>
+        <center><h4>Replace or modify this view controller</h4></center><hr/>
+        <p>Create a view with a textField, a back button, a forward button, a go button, and webView.</p>
+        <ul>
+            <li>The textField should allow input of a web address.</li>
+            <li>The go button should trigger the entered address to be loaded in the webView (Using <code>NSURLConnection</code>).</li>
+            <li>Intercept the above links and load them through the same process of the original url using <code>NSURLConnection</code>.</li>
+            <li>Cache responses so if the same url is entered, it will not go out to the network and instead use the cahced html string.  (Keep this simple - an <code>NSMutableDictionary</code> is fine here.)</li>
+            <li>Back and forward should navigate as expected for browser buttons and use the cached links.</li>
+            <li>Make sure all images and framed pages still load correctly (test with google and yahoo home pages - make sure images show up).</li>
+        </ul>
+    </body>
+</html>
